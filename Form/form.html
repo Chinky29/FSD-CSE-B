@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        #form{
+            border: 2px solid black;
+            align-items: center;
+            justify-content: center;
+            width: 500px;
+            padding-left: 50px;
+            padding-bottom: 50px;
+            margin-left: 25%;
+            margin-top: 25%;
+        }
+        button{
+            color:rgb(5, 35, 123) ;
+            background-color: antiquewhite;
+            border-radius: 10px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/HTML/Form/complete.html">
+        <div id="form">
+        <h1>Registration FORM </h1>
+        <div>
+            <label for="username">First name: 
+            <input type="text" placeholder="Enter username" id="username"></label>
+
+        </div><br>
+         <div>
+            <label for="last">Last name: 
+            <input type="text" placeholder="Enter username" id="last"></label>
+
+        </div>
+        <br>
+         <div>
+            <label for="father">Father's name: 
+            <input type="text" placeholder="Enter username" id="father"></label>
+
+        </div>
+       <br>
+         <div>
+            <label for="mother">Mother's name: 
+            <input type="text" placeholder="Enter mother's name" id="mother"></label>
+
+        </div><br>
+        <div>
+            <label for="dob">Enter DATE OF BIRTH:
+                <input type="date" id="dob" placeholder="enter date of birth">
+            </label>
+        </div><br>
+         <div>
+            <label for="email">Enter Email:
+                <input type="email" id="email" placeholder="enter email">
+            </label>
+        </div><br>
+        <div>
+            Gender: <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+            <label for="male">Other</label>
+            <input type="radio" name="gender" id="other">
+
+        </div><br>
+        <div>Hobbies: 
+            <label for="Sing">Singing</label>
+            <input type="checkbox" name="hobby" id="Sing">
+            <label for="dance">Dancing</label>
+            <input type="checkbox" name="hobby" id="dance">
+            <label for="Sing">Reading book</label>
+            <input type="checkbox" name="hobby" id="Sing">
+            <label for="play">Playing</label>
+            <input type="checkbox" name="hobby" id="play">
+        </div><br>
+        <div><label for="Branch"> Branch</label>
+            <select name="branch" id="branch">
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="CSE-AIML">CSE-AIML</option>
+                <option value="CSE-DS">CSE-DS</option>
+                <option value="CS">CS</option>
+            </select>
+        </div><br>
+        <div><label for="sem"> Semester</label>
+            <select name="sem" id="semester">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+        </div><br>
+         <div>
+            <label for="pass">Password
+            <input type="text" placeholder="Enter Password" id="pass"></label>
+
+        </div><br>
+        <div>
+            <label for="pass">Confirm Password
+            <input type="text" placeholder="Enter Password again" id="pass"></label>
+
+        </div><br>
+       
+        
+        <button type="submit">LOGIN</button>
+        <button type="reset">Reset</button>
+
+
+    </form><br><br>
+    <form action="https://www.google.com/search">
+        
+        <input type="text" name="q" id="search" placeholder="Search in google for any query">
+        <button>SEARCH</button>
+
+    </form>
+</div>
+</html>
