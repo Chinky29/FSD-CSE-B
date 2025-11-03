@@ -11,7 +11,7 @@ const App = () => {
   //   {image:"",title:"Mathematics",price:432},
   // ]
 
-  return (
+  return (     
     <div>
       <Header />
     <div className="boxlist">
